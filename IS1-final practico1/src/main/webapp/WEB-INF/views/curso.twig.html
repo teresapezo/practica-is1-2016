@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Curso</title>
+</head>
+<body>
+	<table class=>
+		<thead>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<th>ID</th>
+				<td>{{ curso.id }}</td>
+			</tr>
+			<tr>
+				<th>Codigo</th>
+				<td>{{ curso.codigo }}</td>
+			</tr>
+			<tr>
+				<th>Credito</th>
+				<td>{{ curso.creditos }}</td>
+			</tr>
+			<tr>
+				<th>Nombre</th>
+				<td>{{ curso.nombre }}</td>
+			</tr>
+        </tbody>
+      </table>
+      <br />
+      <a href="add-curso?curso_id={{curso.curso_id}}">Modify</a> |<a href="add-curso">Agregar curso nuevo</a> | <a href="curso">List All</a>
+</body>
+</html>
