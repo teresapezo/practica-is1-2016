@@ -1,1 +1,0 @@
-# practica-is1-2016
